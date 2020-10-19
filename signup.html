@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Travel Website</title>
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+    </head>
+    <style>
+        A{
+            text-decoration: none;
+        }
+    </style>
+    <body bgcolor="lightgrey">
+        <script src="JS/script.js"></script>
+        <div class="signup-division">
+            <form onsubmit="return validate()==false" id="signup-form">
+
+                <div class="site-footer_logo">
+                    <img src="https://www.travelperk.com/wp-content/themes/travelperk/assets/img/travelperk-logo-dark.svg"
+                        alt="travelperk">
+                </div>
+                
+                
+            <table>
+                <h4>Get ready to pack,<br> your new business travel experience starts here</h4>
+                <div id="result"></div>
+                <tr>
+                    <td>Work email</td>
+                </tr>
+                <tr>
+                    <td><input type="email" name="email" id="email" placeholder="name@company.com" required></td>
+                </tr>
+                <tr>
+                    <td id="submit"><input type="submit" name="submit" value="Continue"></td>
+                </tr>
+                <tr>
+                    <td><a href="#">By signing up, you agree to our Terms of Use and Privacy Policy.</a></td>
+                </tr>
+            </table>
+            </form>
+        </div>
+        <div class="signup-division">
+            <img src="signup.jpg" height="520" width="550">
+        </div>
+        <div class="signup-lower">
+            <h4>Already have an account?</h4>
+            <a href="#">Sign in</a>
+        </div>
+        
+    </body>
+</html>
